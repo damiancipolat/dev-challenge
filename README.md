@@ -60,3 +60,34 @@ En caso de querer recompilar html
 $ cd client
 $ npm run bundle
 ```
+
+## Agregados:
+> Adicionalmente a la información pedida al area de producto, aporte las sig. ideas:
+
+- Vuelos recomendados - "cache de recomendados":
+Es una recopilación por destinos, del vuelo más barato, que parten apartir de la fecha
+en que se genere el lote, por este motivo lo ideal es que este se genere todos los días.
+
+Esta información es util por que es mostrada en el home de la web, debajo del buscador de vuelos.
+
+"En mi experiencia de haber trabajado en una empresa de turismo, vi la dificultad del personal
+del sector comercial de estar todos los días buscando generar promociones nuevas y cargandolas en la web,
+disponian de poquisimo tiempo y esta tarea se hacia de forma incompleta siempre. Por ende propongo
+esta solución de cache, en caso de haber alguna promoción que se desee incluir también, el proceso
+puede buscarla en base a la fecha y destino e incluirla en la cache a generar en ese momento."
+
+- Buscar por presupuesto y pto. de partida:
+Es el algoritmo que esta detras del buscador, la busqueda se realiza filtrando, todos los vuelos
+que parten el mismo día o proximos a la fecha en que realize la busqueda. Ya que no se define
+una fecha maxima de busqueda el sistema define como plazo maximo 3 meses.
+
+BD:
+Decidi usar una base de datos MONGODB, ya que creo que se aplica bien para este ejercicio y aporta mucha más
+facilidad al momento de trabjar con los datos.
+
+Dentro de la carpeta /bd/ esta mongo.js ahi dentro esta el archivo con las funciones js que desarrolle,
+para armar la base de datos en base al dataset.json.
+
+Hay dos funciones que son muy importantes:
+- loadRecommended(): armar la cache de vuelos recomendados.
+- fullRoundTrip(): hace combinaciones para armar vuelos de ida y vuelta en base a un origen y destino.
