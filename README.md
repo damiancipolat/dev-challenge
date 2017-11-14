@@ -9,8 +9,10 @@ La aplicación fue creada en forma de Single Page Application usandop REACTJS, s
 
 > Se desarrollaron solo dos pantallas de lo que consistiria del flujo de compra de un vuelo.
 
+Pantalla de Home
 ![N|Solid](http://damiancipolat.com/webFiles/flybondi-home.png)
 
+Pantalla de resultados
 ![N|Solid](http://damiancipolat.com/webFiles/flybondi-resu.png)
 
 El diseño fue pensado desde el punto de vista de tener una buena UX, el formulario principal solo pide dos
