@@ -1,0 +1,69 @@
+@orange-primary: #fec63d;
+
+.promo-div{
+  width: 70%;
+  margin:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  color:@orange-primary;
+
+  span{
+    font-size:17px;
+    color:gray;
+  }
+
+  .promo-grid{
+
+    padding:15px;
+
+    .promo-card:hover{
+      border:2px solid @orange-primary;
+      cursor:pointer;
+    }    
+
+    .promo-card{
+      background:@orange-primary;
+      height:170px;
+      padding:0px;
+      margin-right:20px;
+      margin-bottom:20px;
+      -webkit-box-shadow: 5px 5px 5px 0px rgba(196,196,196,1);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(196,196,196,1);
+      box-shadow: 5px 5px 5px 0px rgba(196,196,196,1);
+
+      img{
+        width:100%;
+        height:100%;
+        position:absolute;
+        left:0;
+        top:0;
+      }
+
+      .destiny{
+        z-index: 1;
+        position: relative;
+        color: @orange-primary;;
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      .price{
+        color: white;
+        font-size: 25px;
+        font-family: 'tahoma';
+        display: block;
+        position: relative;
+        float: right;
+        z-index: 1;
+        top: 85px;
+        background: rgba(0,0,0,0.3);
+        width: 100%;
+        text-align: right;
+        padding-right: 10px;
+      }
+    }
+
+  }
+}
