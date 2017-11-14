@@ -5,10 +5,9 @@ En este diagrama presento la solución presentada por mí para resolver el chall
 
 ![N|Solid](http://damiancipolat.com/webFiles/flybondi-diagram.png)
 
-Consiste en ser una SPA creada con REACTJS, siendo servida por un webserver creado en nodejs y un server
-de apirest también escrito en nodejs.
+La aplicación fue creada en forma de Single Page Application usandop REACTJS, siendo servida por un webserver creado en nodejs y un server de apirest también escrito en nodejs.
 
-TECNOLOGIAS:
+## TECNOLOGIAS:
 
 Frontend:
  - reactjs
