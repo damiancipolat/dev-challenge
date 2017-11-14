@@ -1,0 +1,6 @@
+//Conectar a la bd:
+mongo ds155695.mlab.com:55695/flybondi -u test -p test
+
+
+//Importar a la bd remota el data set de prueba:
+mongoimport -h ds155695.mlab.com:55695 -d flybondi -c flights -u test -p test --jsonArray  --file dataset.json
