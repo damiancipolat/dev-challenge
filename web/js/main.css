@@ -1,0 +1,398 @@
+.footer-div {
+  background: #7a7a7a;
+  margin-top: 30px;
+  padding: 10px;
+}
+.footer-div .center {
+  margin: auto;
+  width: 70%;
+  padding-top: 10px;
+}
+.footer-div .center .copyright {
+  color: #fec63d;
+  font-size: 1.4em;
+}
+.footer-div .center .copyright div {
+  margin-top: 5px;
+}
+.form-search {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.link {
+  text-decoration: none!important;
+}
+.link a {
+  text-decoration: none!important;
+}
+.form-div {
+  position: relative;
+  height: 100%;
+  top: -85px;
+  z-index: 50;
+  width: 70%;
+  margin: auto;
+}
+.plane-icon {
+  width: 25px;
+  margin-left: -10px;
+  margin-right: 10px;
+  vertical-align: -7px;
+}
+.btn-snippet {
+  background: #fec63d;
+  width: 180px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+.form-body {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.form-body .fields-col div {
+  color: #fec63d;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form-body .fields-col input,
+.form-body .fields-col select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #fec63d;
+  text-align: center;
+  font-size: 17px;
+}
+.form-body .ida-vuelta {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #fec63d;
+  font-size: 17px;
+  font-weight: bold;
+}
+.form-body .ida-vuelta input {
+  cursor: pointer;
+  border: 2px solid #fec63d;
+}
+.form-body .searchBtn {
+  background: #fec63d;
+  cursor: pointer;
+  width: 100px;
+  border: 1px solid #fec63d;
+  border-radius: 9px;
+  font-size: 17px;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+.form-body .searchBtn:hover {
+  background: #e76822;
+  border: 1px solid #e76822;
+}
+.header {
+  background-image: url("/img/bg-sky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  border-bottom: 6px solid #fec63d;
+}
+.header .logos {
+  height: 85px;
+  position: relative;
+  z-index: 100;
+}
+.header .logo {
+  width: 250px;
+  display: block;
+  margin-left: 35px;
+  margin-top: 15px;
+  float: left;
+}
+.header .logo img {
+  width: 100%;
+  height: 100%;
+}
+.header .lowcost {
+  width: 80px;
+  display: block;
+  margin-right: 30px;
+  margin-top: 15px;
+  float: right;
+}
+.header .lowcost img {
+  width: 100%;
+  height: 100%;
+}
+.promo-div {
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fec63d;
+}
+.promo-div span {
+  font-size: 17px;
+  color: gray;
+}
+.promo-div .promo-grid {
+  padding: 15px;
+}
+.promo-div .promo-grid .promo-card:hover {
+  border: 2px solid #fec63d;
+  cursor: pointer;
+}
+.promo-div .promo-grid .promo-card {
+  background: #fec63d;
+  height: 170px;
+  padding: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 5px 0px #c4c4c4;
+  -moz-box-shadow: 5px 5px 5px 0px #c4c4c4;
+  box-shadow: 5px 5px 5px 0px #c4c4c4;
+}
+.promo-div .promo-grid .promo-card img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.promo-div .promo-grid .promo-card .destiny {
+  z-index: 1;
+  position: relative;
+  color: #fec63d;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.promo-div .promo-grid .promo-card .price {
+  color: white;
+  font-size: 25px;
+  font-family: 'tahoma';
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 1;
+  top: 85px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+* {
+  font-family: 'arial';
+}
+.plane-bg {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.plane-bg img {
+  width: 600px;
+  height: 300px;
+}
+.label-home {
+  margin-top: 2px;
+  padding-top: 30px;
+  border-top: 2px dotted #fec63d;
+  width: 70%;
+  margin: auto;
+}
+.b-logo {
+  width: 40px;
+}
+.title-home {
+  position: relative;
+  top: 7px;
+  left: 15px;
+  font-size: 2em;
+  color: #fec63d;
+}
+.descrip-home {
+  font-size: 1.2em;
+  padding-top: 15px;
+  text-align: left;
+}
+h3 {
+  color: #fec63d;
+  font-size: 1.9em;
+}
+.valor-box {
+  height: 110px;
+  padding-bottom: 10px;
+}
+.valor-box span {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: gray;
+  font-size: 1.3em;
+}
+.valor-box-img {
+  height: 80px;
+  text-align: center;
+}
+.valores-home {
+  padding-bottom: 10px;
+}
+.valores-home h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-default {
+  background: #fec63d !important;
+  padding: 5px;
+}
+.navbar-default img {
+  width: 200px;
+}
+.panel-body .title-form {
+  font-size: 1.2em;
+  text-align: left;
+  display: block;
+  padding-bottom: 10px;
+}
+.panel-body .title-separator {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: -2px;
+  color: white;
+  background: #fec63d!important;
+}
+.panel-body .title-separator .glyphicon {
+  color: white;
+}
+.panel-heading {
+  background-color: #fec63d !important;
+  text-align: center;
+  color: white!important;
+}
+.rangeslider-horizontal .rangeslider__fill {
+  background-color: #fec63d !important;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
+.results-panel {
+  background: white;
+  padding: 15px;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}
+.results-panel h3 {
+  margin: 0px;
+}
+.loading {
+  padding: 10px!important;
+  border: 2px dotted #fec63d!important;
+}
+.loading h3 {
+  color: #fec63d!important;
+}
+.loading .mini-logo {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.flightDiv .ticket {
+  border-left: 10px solid #fec63d;
+  height: 100%;
+  padding-left: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 5px 5px 5px 0px #c4c4c4;
+  -moz-box-shadow: 5px 5px 5px 0px #c4c4c4;
+  box-shadow: 5px 5px 5px 0px #c4c4c4;
+  height: 150px;
+}
+.flightDiv .ticket .ticket-body {
+  width: 80%;
+  float: left;
+  height: 100%;
+}
+.flightDiv .ticket .ticket-body h3 {
+  color: black;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.flightDiv .ticket .ticket-price {
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+.flightDiv .ticket .ticket-price .buy-btn div {
+  background: #3483fa;
+  color: white;
+  height: 57px;
+  width: 90%;
+  margin: 10px;
+  border-right: 5px solid gray;
+  border-bottom: 5px solid gray;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 18px;
+  border-radius: 10px;
+}
+.flightDiv .ticket .ticket-price .buy-btn div:hover {
+  color: white;
+  background: #696969;
+}
+.flightDiv .ticket .ticket-price .price {
+  text-align: center;
+}
+.flightDiv .ticket .ticket-price .price span {
+  background: white;
+  color: black;
+  display: block;
+  padding-top: 5px;
+  font-size: 2em;
+  padding-bottom: 5px;
+  border: 1px solid #fec63d;
+}
+.flightDiv .test {
+  background: red;
+  height: 100%;
+}
+.orange {
+  color: #3483fa;
+}
+.filter-panel .filter-body {
+  margin: 10px;
+  border-radius: 5px;
+}
+.navbar-default {
+  border-bottom: 1px solid silver;
+  margin-bottom: 0px;
+}
+.breadcrumb {
+  border-bottom: 1px solid silver!important;
+  background: white;
+}
+.breadcrumb-item a {
+  color: black;
+  text-decoration: none;
+}
+.breadcrumb-item b {
+  color: black;
+}
+.full-body {
+  background: #f5f5f5;
+}
+.fix-row {
+  margin: 0px;
+}
+.center {
+  text-align: center;
+}
