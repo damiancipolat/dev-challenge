@@ -45,10 +45,9 @@ class Currency extends Component {
 
     let val = this.convertToCurrency(event.target.value);
 
-    this.setState({value:val});
-
-    // notify that value changed
-    this.props.onChange(this.state.value);
+    this.setState({value:val},()=>{
+	this.props.onChange(this.state.value);
+    });
 
   }
 
